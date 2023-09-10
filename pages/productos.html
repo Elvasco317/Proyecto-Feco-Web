@@ -4,38 +4,186 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--INSERTO BOOTSTRAP POR CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilo.css">
     <link rel="shortcut icon" href="../img/favicon_io/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
-    <title> Productos </title>
-</head>
-<header class="header">
-    <div>
-        <img class="logo" src="../img/feco.png" alt="Logo Feco">
-    </div>
-    <nav>
-        <ul class="menu">
-            <li><a href="../index.html" class="nav-link">INICIO</a></li>
-            <li><a href="productos.html" class="nav-link">Productos</a></li>
-            <li><a href="fotos.html" class="nav-link">Fotos</a></li>
-            <li><a href="detailing.html" class="nav-link">Detailing</a></li>
-            <li><a href="videos.html" class="nav-link">Videos</a></li>
-            <li><a href="nosotros.html" class="nav-link">Nosotros</a></li>
-            <li><a href="contacto.html" class="nav-link">Contacto</a></li>
-        </ul>
-    </nav>
-</header>
+
+    <title> FecoProject .. </title>
 
 <body>
-    <h2 class="titProductos">
-        Productos
-    </h2>
-    <footer>
-        <h2>Feco Project</h2>
-        <h3>Automotive Photography & Detailing</h>
-    </footer>
-</body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" </a>
+                <img src="../img/feco.png" alt="LogoFeco" width="450">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/fotos.html">FOTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/productos.html">PRODUCTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/nosotros.html">NOSOTROS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Productos-->
+
+    <body>
+        <br>
+        <h2 class="d-flex justify-content-center">
+            <div class="bg-light">
+                Productos
+            </div>
+        </h2>
+        <hr class="border border-info border-2 opacity-50">
+        <main>
+            <div class="container h-50 w-50 ">
+                <div class="row gy-3">
+                    <div class="col-sm mb-3">
+                        <div class="card h-100 mb-3">
+                            <img src="../img/productos/producto01.png" class="card-img-top" alt="Producto01">
+                            <div class="card-body">
+                                <h5 class="card-title">Petroleum</h5>
+                                <p class="card-text">Su fórmula innovadora sin solventes está específicamente diseñada
+                                    para otorgar prolongada humectación, devolver flexibilidad y el aspecto original de
+                                    un cuero, un plástico o una goma. Debido a que no otorga un brillo excesivo, es
+                                    ideal para el torpedo del auto porque no se genera el reflejo en el parabrisas.
+                                    Su formulación balanceada no se transfiere ni permite que se adhiera el polvo. Tiene
+                                    un aroma muy agradable y suave. Si se aplica en los burletes, prolonga su
+                                    durabilidad y quita ruidos generados por los mismos. Ideal para el uso en los
+                                    interiores del vehículo.
+                                    Al no contener solventes, no engrasa los vidrios.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm mb-3">
+                        <div class="card h-100">
+                            <img src="../img/productos/producto02.png" class="card-img-top" alt="Producto02">
+                            <div class="card-body">
+                                <h5 class="card-title">Purple Shock</h5>
+                                <p class="card-text">Su fórmula innovadora sin solventes está específicamente diseñada
+                                    para otorgar prolongada humectación, devolver
+                                    flexibilidad y el aspecto original de un plástico o una goma. Debido a que no otorga
+                                    un brillo excesivo, es ideal para
+                                    el torpedo del auto porque no se genera el reflejo en el parabrisas.
+                                    Su formulación balanceada no se transfiere ni permite que se adhiera el polvo. Tiene
+                                    un aroma extremadamente adictivo a
+                                    uva. Si se aplica en los burletes, prolonga su durabilidad y quita ruidos generados
+                                    por los mismos. Ideal para el uso en
+                                    los interiores del vehículo.
+                                    Al no contener solventes, no engrasa los vidrios.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm mb-3">
+                        <div class="card h-100">
+                            <img src="../img/productos/producto03.jpg" class="card-img-top" alt="Producto03">
+                            <div class="card-body">
+                                <h5 class="card-title">Original Finish</h5>
+                                <p class="card-text">Su fórmula innovadora sin solventes está específicamente diseñada
+                                    para otorgar prolongada humectación, devolver
+                                    flexibilidad y el aspecto original de un cuero, un plástico o una goma. Debido a que
+                                    no otorga un brillo excesivo, es
+                                    ideal para el torpedo del auto porque no se genera el reflejo en el parabrisas.
+                                    Su formulación balanceada no se transfiere ni permite que se adhiera el polvo. Tiene
+                                    un aroma muy agradable y suave. Si
+                                    se aplica en los burletes, prolonga su durabilidad y quita ruidos generados por los
+                                    mismos. Ideal para el uso en los
+                                    interiores del vehículo.
+                                    Al no contener solventes, no engrasa los vidrios.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row gy-3">
+                    <div class="col-sm mb-3">
+                        <div class="card h-100">
+                            <img src="../img/productos/producto04.jpg" class="card-img-top" alt="Producto01">
+                            <div class="card-body">
+                                <h5 class="card-title">Polymer Tech Wax</h5>
+                                <p class="card-text">Formula diseñada para encerar tu vehículo de manera ultra rápida.
+                                    Funciona en todo tipo de vehículos y especialmente en
+                                    aquellos con tratamiento acrílico o cerámico.
+                                    Producto de formula innovadora a base de polímeros sintéticos hidrofóbicos de
+                                    excelente permanencia sobre la pintura. En
+                                    su desarrollo, se puso especial interés en su aplicación, suavidad y brillo logrando
+                                    un excelente acabado. Se adapta
+                                    perfectamente a cualquier color sin importar si es claro u oscuro.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm mb-3">
+                        <div class="card h-100">
+                            <img src="../img/productos/producto05.jpg" class="card-img-top" alt="Producto02">
+                            <div class="card-body">
+                                <h5 class="card-title">Carnaúba Turbo Wax</h5>
+                                <p class="card-text">Formula diseñada para encerar tu vehículo de manera ultra rápida.
+                                    Funciona en todo tipo de vehículos y especialmente en
+                                    aquellos con tratamiento acrílico o cerámico.
+                                    Otorga efecto mojado, terminación profunda y cálida que solo la CARNAUBA puede dar.
+                                    Tu vehículo no solo quedara brillante, sino que protegido también.
+                                    Especialmente recomendada para colores oscuros y metalizados.
+                                    En la formulación de este producto se hizo un esfuerzo en la selección de la cera
+                                    que debía conformarlo. Se encuadra
+                                    dentro de las que se caracterizan como Quick Wax, es fácil de aplicar.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm mb-3">
+                        <div class="card h-100">
+                            <img src="../img/productos/producto06.jpg" class="card-img-top" alt="Producto03">
+                            <div class="card-body">
+                                <h5 class="card-title">Carnaúba hot wax</h5>
+                                <p class="card-text">Esta cera está especialmente formulada para el mantenimiento de
+                                    vehículos con tratamientos acrílicos y cerámicos.
+                                    También es ideal para aquellos que se encuentran sin estos tratamientos.
+                                    Especialmente recomendada para colores oscuros y metalizados.
+                                    En la formulación de este producto se hizo un esfuerzo en la selección de la cera
+                                    que debía conformarlo. Se encuadra
+                                    dentro de las que se caracterizan como Quick Wax, es fácil de aplicar.
+                                    El alto contenido de carnauba otorga un brillo cálido, profundo y duradero. Además
+                                    de hacer más intensos los colores,
+                                    protege pinturas standard y especiales de los rayos UV y otros elementos ya que
+                                    forma una capa delgada. Esta cera es la
+                                    elección favorita de los entusiastas
+                                    del brillo que solo puede dar una cera natural como es la CARNAUBA.
+                                    Cuenta con un excelente rendimiento y otorga un excelente brillo Efecto Mojado</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Footer -->
+        <footer class="footer mt-5 primary text-bg-warning p-4  d-flex flex-column">
+            <div class="container text-muted d-flex justify-content-center">
+                <span class="text-muted">Feco Project / Detailing & Photography</span>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikTmJxqww80jsK6imBSf3cFJ89Y9/n+C930oX6v3275F"
+            crossorigin="anonymous"></script>
+    </body>
 
 </html>

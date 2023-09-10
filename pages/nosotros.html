@@ -4,52 +4,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--INSERTO BOOTSTRAP POR CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilo.css">
     <link rel="shortcut icon" href="../img/favicon_io/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
-    <title> Nosotros </title>
-</head>
-<header class="header">
-    <div>
-        <img class="logo" src="../img/feco.png" alt="Logo Feco">
-    </div>
-    <nav>
-        <ul class="menu">
-            <li><a href="../index.html" class="nav-link">INICIO</a></li>
-            <li><a href="productos.html" class="nav-link">Productos</a></li>
-            <li><a href="fotos.html" class="nav-link">Fotos</a></li>
-            <li><a href="detailing.html" class="nav-link">Detailing</a></li>
-            <li><a href="videos.html" class="nav-link">Videos</a></li>
-            <li><a href="nosotros.html" class="nav-link">Nosotros</a></li>
-            <li><a href="contacto.html" class="nav-link">Contacto</a></li>
-        </ul>   
-    </nav>
-</header>
+
+    <title> FecoProject .. </title>
 
 <body>
-    <h2 class="titNosotros">
-        Nosotros
-    </h2>
-        <h2 class="nosotrosText">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. At dolor nisi numquam nobis cupiditate ut iusto voluptas qui quod cumque! Vel dolorem, eaque quas quae quasi tempora velit assumenda omnis.
-            Quasi debitis cumque explicabo qui sunt iure sint corrupti corporis quibusdam omnis. Praesentium quidem velit, est voluptatum maiores dignissimos, tenetur dolorem quia excepturi ab nostrum perferendis ad aspernatur numquam sit.
-            Qui ipsam aspernatur cupiditate voluptas sint ab iste quas corrupti necessitatibus atque adipisci, maxime error eos ratione nihil accusamus inventore consequatur ipsa vero possimus. Repudiandae id veritatis reiciendis? Sit, est?
-            At obcaecati recusandae omnis perspiciatis ipsum voluptatum magni et temporibus tenetur, quae, error corporis cum! Nihil eos maiores enim dolore impedit rerum esse, explicabo optio sint reiciendis voluptatum nisi eaque.
-            Similique omnis laborum nesciunt temporibus incidunt eos illo, non quos minima ad provident! Numquam, quibusdam cum illo unde earum dignissimos est facere ipsum aut deserunt tempora repellendus laborum aperiam recusandae?
-            Omnis, quam. Eos quo praesentium inventore doloribus, reprehenderit architecto quasi ducimus reiciendis, asperiores nemo rem, officiis expedita cum. Eveniet dignissimos explicabo sit facere facilis ea veritatis vel cumque. At, consequuntur.
-            Doloremque labore blanditiis fuga praesentium minus harum mollitia officiis repellat. Reiciendis dolorem, aspernatur explicabo officiis nulla iusto sit laudantium nemo, harum in, ratione illo adipisci hic rerum maxime soluta maiores.
-            Labore, impedit qui veritatis dolorem dignissimos aperiam earum ratione molestias nobis nesciunt? Architecto ea nesciunt exercitationem amet quasi quod unde nostrum est expedita officia. Quam libero ex atque debitis qui.
-            Nobis, reiciendis molestiae, vel quia reprehenderit perspiciatis, adipisci similique corporis unde sint numquam! Suscipit molestiae earum nemo alias odio omnis, placeat magni, perferendis, praesentium minima sapiente officiis vel nihil! Qui.
-            Distinctio explicabo laboriosam, quasi, voluptate possimus non commodi qui officiis praesentium illum blanditiis officia eaque, doloribus nobis labore facilis alias saepe molestiae harum reiciendis vel a pariatur. Dignissimos, libero cum!
-            Labore a aperiam laboriosam dolor similique blanditiis eius obcaecati esse, et nostrum deserunt corporis quidem repellat delectus. Libero et vitae officia itaque omnis adipisci enim harum autem, ea, odit optio.
-            Ut, deserunt eos. Provident, quo doloribus. Natus eveniet libero fugiat repellat. Cupiditate perspiciatis at vero asperiores atque. Ex rerum sunt architecto, dolore labore id deleniti molestias totam tempora cum fugit!
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand">
+                <img src="../img/feco.png" alt="LogoFeco" width="450">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/fotos.html">FOTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/productos.html">PRODUCTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/nosotros.html">NOSOTROS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </header>
+
+    <body>
+        <br>
+        <h2 class="d-flex justify-content-center">
+            <div class="bg-light">
+                Nosotros
+            </div>
         </h2>
-    <footer>
-        <h2>Feco Project</h2>
-        <h3>Automotive Photography & Detailing</h>
-    </footer>
-</body>
+        <hr class="border border-info border-2 opacity-50">
+        <div class="p-3 mb-2 bg-light text-dark">
+            <h2 class="nosotrosText">
+                <h1 class="display-2 text-center font-weight-bold">Fecoproject: La pasión por los Autos y las Motos</h1>
+                <p class="lead p-2">
+                    FecoProject es una empresa que se dedica al detailing y a la fotografía de autos y motos. Fue
+                    fundada
+                    hace
+                    10
+                    años por dos amigos, Federico y Lucas, que comparten la pasión por los vehículos de motor.
+                    Federico es un experto en detailing, un proceso de limpieza y cuidado de los autos y las motos que
+                    va
+                    mucho
+                    más allá de
+                    una simple lavada. Su objetivo es devolver a los vehículos su aspecto original y mantenerlos en
+                    perfecto
+                    estado.
+                    Lucas, por su parte, es una fotógrafa profesional con un gran talento para capturar la belleza de
+                    los
+                    autos
+                    y las
+                    motos.
+
+                    FecoProject ofrece una amplia gama de servicios de detailing, desde la limpieza básica hasta los
+                    tratamientos más
+                    avanzados. También ofrece servicios de fotografía profesional de autos y motos, para que sus
+                    clientes
+                    puedan
+                    mostrar sus
+                    vehículos con orgullo.
+
+                    En los últimos 10 años, FecoProject se ha convertido en una de las empresas de detailing y
+                    fotografía de
+                    autos y motos
+                    más reconocidas de la ciudad. Sus clientes son personas de todas las edades y niveles de ingresos,
+                    que
+                    buscan un
+                    servicio de calidad y atención personalizada.
+                </p>
+                <hr>
+                <h2 class="display-6 p-3">El comienzo</h2>
+                <p class="lead p-2">
+                    Federico y Lucas se conocieron en la universidad, donde estudiaban ingeniería mecánica. Ambos
+                    compartían
+                    la
+                    pasión
+                    por los autos y las motos, y pasaban horas charlando sobre sus vehículos favoritos.
+
+                    Un día, Federico le propuso a Lucas la idea de montar una empresa de detailing y fotografía de autos
+                    y
+                    motos. A
+                    Lucas le pareció una idea brillante, y ambos decidieron comenzar a trabajar en el proyecto.
+
+                    Al principio, la empresa operaba desde el garaje de Federico. Sin embargo, el negocio creció
+                    rápidamente, y
+                    pronto
+                    tuvieron que alquilar un local más grande.
+                </p>
+                <hr>
+                <h2 class="display-6 p-3">El Exito</h2>
+                <p class="lead p-2">
+                    Fecoproject se ha convertido en una empresa de éxito gracias a la calidad de sus servicios y al
+                    compromiso
+                    de sus
+                    fundadores. Federico y Lucas están siempre buscando nuevas maneras de mejorar sus servicios, y están
+                    comprometidos
+                    con ofrecer a sus clientes la mejor experiencia posible.
+
+                    La empresa ha recibido numerosos premios y reconocimientos, y ha sido seleccionada para participar
+                    en
+                    eventos
+                    importantes de la industria del detailing y la fotografía de autos y motos.
+                </p>
+                <hr>
+                <h2 class="display-6 p-3">El Futuro</h2>
+                <p class="lead p-2">
+                    Fecoproject tiene grandes planes para el futuro. La empresa planea expandirse a otras ciudades, y
+                    también
+                    está
+                    desarrollando nuevos servicios y productos.
+
+                    Federico y Lucas están convencidos de que Fecoproject tiene el potencial de convertirse en una
+                    empresa
+                    líder
+                    en la
+                    industria del detailing y la fotografía de autos y motos.
+                </p>
+            </h2>
+        </div>
+        <!-- Footer -->
+        <footer class="footer mt-5 primary text-bg-warning p-4  d-flex flex-column">
+            <div class="container">
+                <span class="text-muted text-muted d-flex justify-content-center">Feco Project / Detailing &
+                    Photography</span>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikTmJxqww80jsK6imBSf3cFJ89Y9/n+C930oX6v3275F"
+            crossorigin="anonymous"></script>
+    </body>
 
 </html>

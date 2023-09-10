@@ -1,51 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- ACA TRAIGO LA PAGE DE CCS PARA UTILIZARLA -->
+    <!--INSERTO BOOTSTRAP POR CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/estilo.css">
-    <link rel="shortcut icon" href="./img/favicon_io/favicon.ico" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <!-- ACA UTILIZO LA FUENTE DE GOOGLE -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/favicon_io/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
-    <title> Feco Project :. </title>
-</head>
-<header class="header">
-    <!-- LOGO FECO PROYECT -->
-    <div>
-        <img class="logo" src="./img/feco.png" alt="Logo Feco">
-    </div>
-    <!-- NAV CON LINKS PARA LAS PAGES -->
-    <nav>
-        <ul class="menu">
-            <li><a href="./pages/productos.html" class="nav-link">Productos</a></li>
-            <li><a href="./pages/fotos.html" class="nav-link">Fotos</a></li>
-            <li><a href="./pages/detailing.html" class="nav-link">Detailing</a></li>
-            <li><a href="./pages/videos.html" class="nav-link">Videos</a></li>
-            <li><a href="./pages/nosotros.html" class="nav-link">Nosotros</a></li>
-            <li><a href="./pages/contacto.html" class="nav-link">Contacto</a></li>
-        </ul>   
-    </nav>
-</header>
+
+    <title> FecoProject .. </title>
 
 <body>
-    <!-- IMAGEN PRINCIPAL EDITABLE EN CSS -->
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" </a>
+                <img src="./img/feco.png" alt="LogoFeco" width="450">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/fotos.html">FOTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/productos.html">PRODUCTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/nosotros.html">NOSOTROS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <h2 class="d-flex justify-content-center">
+        <div class="bg-light">
+            Feco Project Detailing & Photography
+        </div>
+    </h2>
+    <hr class="border border-info border-2 opacity-50">
+    <!-- Imagen -->
     <div>
-        <img  class="fototiguan" src="./img/opticatiguan2.jpeg" alt="">
+        <img src="./img/opticatiguan2.jpeg" class="rounded mx-auto d-block w-100" alt="Opticatiguan">
     </div>
-    <div class="automotive">
-        <h1>Automotive Photography & Detailing</h1>
-    </div>
-    <footer>
-        <h2>Feco Project</h2>
-        <h3>Automotive Photography & Detailing</h3>
+    <!-- Footer -->
+    <footer class="footer mt-3 primary text-bg-warning p-4  d-flex flex-column">
+        <div class="container ms-auto">
+            <span class="text-muted d-flex justify-content-center">Feco Project / Detailing & Photography</span>
+        </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikTmJxqww80jsK6imBSf3cFJ89Y9/n+C930oX6v3275F"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

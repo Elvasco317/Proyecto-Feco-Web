@@ -1,124 +1,26 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  box-sizing: border-box;
 }
-/* Header principal en todas las paginas */
-header{ 
-    margin: 0 auto;
-    height:80px;
-    background-color: #2d3030;
-    align-items: center; 
-    padding: 10px;
-    display: flex; 
+
+body {
+  margin: 0;
+  background-image: url("../img/fondos/fondo02.jpg");
+  position: relative;
+  padding-bottom: 5em;
+  min-height: 100vh;
 }
-body{
-    font-family: 'Play', sans-serif;
-    background-color: white;
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
-a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
+
+footer.fixed-bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
-.logo{
-    width: 450px;
-    padding: 15px;
-    margin-top: 50px;
-    position: relative;
-}
-nav{
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    padding: 20px;
-    margin-top: 30px;
-}
-nav a{
-    font-weight:50;
-    font-size: medium;
-}
-nav a:hover{
-    color: rgb(236, 202, 6);
-    background-color: black;
-    border-radius: 10%;
-}
-.menu{
-    display: flex;
-}
-.menu li{
-    list-style: none;
-    margin: 25px;
-}
-/* Imagen principal del Index */
-.fototiguan {
-    width: 100%;
-    height: 65vh;
-    margin-bottom: 0;
-}
-/* Tipografia leyenda Index*/
-.automotive{
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 50px;
-    text-align: center;
-    padding-top: 50px;
-}
-/* CONTACTO */
-/* Aca estoy tratando de hacer un formulario para Contacto, la idea es poner una imagen de fondo */
-form{
-    width: 50%;
-    height: 50vh;
-    background-color: #4f4ff8;
-    padding: 30px;
-}
-form input{
-    width: 50%;
-}
-form #enviar{
-    background-color: blue;
-    font-size: 20px;
-}
-/* PRODUCTOS */
-.titProductos{
-    font-size: 50px;
-    text-align: center;
-    padding-top: 50px;
-}
-/* FOTOS*/
-.titFotos{
-    font-size: 50px;
-    text-align: center;
-    padding-top: 50px;
-}
-/* DETAILING */
-.titDetailing{
-    font-size: 50px;
-    text-align: center;
-    padding-top: 50px;
-}
-/* VIDEOS */
-.titVideos{
-    font-size: 50px;
-    text-align: center;
-    padding-top: 50px;
-}
-/* NOSOTROS */
-.titNosotros{
-    font-size: 50px;
-    text-align: center;
-    padding-top: 50px;
-}
-/* CONTACTO */
-.titContacto{
-    font-size: 50px;
-    text-align: center;
-    padding-top: 50px;
-}
-/* FOOTER igual en todas las paginas*/
-footer{
-    background-color: rgb(255, 213, 28);
-    padding: 1em 0;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
+
+/*# sourceMappingURL=estilo.css.map */
