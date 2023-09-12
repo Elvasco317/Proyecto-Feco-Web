@@ -1,0 +1,11 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer.fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

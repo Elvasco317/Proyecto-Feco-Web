@@ -23,4 +23,13 @@ footer.fixed-bottom {
   width: 100%;
 }
 
+.efectofotos {
+  border: 2px double #949494;
+  opacity: 0.5;
+}
+
+.efectofotos:hover {
+  opacity: 1;
+}
+
 /*# sourceMappingURL=estilo.css.map */

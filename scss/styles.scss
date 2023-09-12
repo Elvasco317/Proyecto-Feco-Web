@@ -1,23 +1,12 @@
-*{
-    padding: 0;
-    box-sizing: border-box;
-}
-body {
-    margin: 0;
-    background-image: url("../img/fondos/fondo02.jpg");
-    position: relative;
-    padding-bottom: 5em;
-    min-height: 100vh;
+@import "_body.scss";
+@import "_footer.scss";
+
+
+.efectofotos {
+    border: 2px double #949494;
+    opacity: 0.5;
 }
 
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
-footer.fixed-bottom {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+.efectofotos:hover {
+    opacity: 1;
 }
