@@ -58,55 +58,58 @@
     </h2>
     <hr class="border border-info border-2 opacity-50">
     <!--Formulario-->
-    <form class="p-5 text-focus-in bg-secondary bg-gradient-info">
-        <div class="form-col">
-            <div class="form-group col-md-3">
-                <label for="inputEmail4">Coreo Electronico</label>
-                <input type="email" class="form-control" id="inputEmail4" placeholder="onatelucas@gmail.com">
+    <div class="p-5 text-focus-in d-flex flex-md-row flex-column bg-secondary bg-gradient-info flex-wrap">
+        <form class="text-focus-in formulario">
+            <div class="form-col w-100">
+                <div class="form-group col-md-12 w-100"> <!-- Cambiado de col-md-3 a col-md-12 -->
+                    <label for="inputEmail4">Correo Electrónico</label>
+                    <input type="email" class="form-control w-75" id="inputEmail4" placeholder="onatelucas@gmail.com">
+                </div><br>
+                <div class="form-group col-md-3 w-100">
+                    <label for="inputphone">Telefono</label>
+                    <input type="text" class="form-control w-75" id="inputphone" placeholder="Telefono">
+                </div>
             </div><br>
-            <div class="form-group col-md-3">
-                <label for="inputphone">Telefono</label>
-                <input type="text" class="form-control" id="inputphone" placeholder="Telefono">
+            <div class="form-group col-md-3 w-100">
+                <label for="inputAddress">Direccion</label>
+                <input type="text" class="form-control w-75" id="inputAddress" placeholder="Rivadavia 712">
+            </div><br>
+            <div class="form-group col-md-3 w-100">
+                <label for="inputAddress2">Direccion Laboral</label>
+                <input type="text" class="form-control w-75" id="inputAddress2" placeholder="Direccion laboral">
+            </div><br>
+            <div class="form-col">
+                <div class="form-group col-md-3 w-100">
+                    <label for="inputCity">Ciudad</label>
+                    <input type="text" class="form-control w-75" id="inputCity" placeholder="Rafaela">
+                </div><br>
+                <div class="form-group col-md-3 w-100">
+                    <label for="inputState">Provincia</label>
+                    <select id="inputState" class="form-control w-75">
+                        <option selected>Elegir</option>
+                        <option>Santa Fe</option>
+                        <option>Cordoba</option>
+                        <option>Buenos Aires</option>
+                        <option>...</option>
+                    </select>
+                </div><br>
+                <div class="form-group col-md-1 w-100">
+                    <label for="inputZip">Codigo Postal</label>
+                    <input type="text" class="form-control w-75" id="inputZip" placeholder="2300">
+                </div>
             </div>
-        </div><br>
-        <div class="form-group col-md-3">
-            <label for="inputAddress">Direccion</label>
-            <input type="text" class="form-control" id="inputAddress" placeholder="Rivadavia 712">
-        </div><br>
-        <div class="form-group col-md-3">
-            <label for="inputAddress2">Direccion Laboral</label>
-            <input type="text" class="form-control" id="inputAddress2" placeholder="Direccion laboral">
-        </div><br>
-        <div class="form-col">
-            <div class="form-group col-md-3">
-                <label for="inputCity">Ciudad</label>
-                <input type="text" class="form-control" id="inputCity" placeholder="Rafaela">
+            <div class="form-group">
             </div><br>
-            <div class="form-group col-md-3">
-                <label for="inputState">Provincia</label>
-                <select id="inputState" class="form-control">
-                    <option selected>Elegir</option>
-                    <option>Santa Fe</option>
-                    <option>Cordoba</option>
-                    <option>Buenos Aires</option>
-                    <option>...</option>
-                </select>
-            </div><br>
-            <div class="form-group col-md-1">
-                <label for="inputZip">Codigo Postal</label>
-                <input type="text" class="form-control" id="inputZip" placeholder="2300">
-            </div>
-        </div>
-        <div class="form-group">
-        </div><br>
-        <button type="submit" class="btn btn-primary">Enviar</button>
-        <div class="map d-flex justify-content-end">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+        <div class="mapa d-flex justify-content-end">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3411.16062813158!2d-61.501707922740664!3d-31.2439763879408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95caafc7611a415f%3A0x270d7f09dd4931d6!2sBalcarce%20843%2C%20S2300ETM%20Rafaela%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1696052176347!5m2!1ses-419!2sar"
                 class="rounded" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-    </form>
+    </div>
+
     <br>
     <div class="bg-light">
         <h3 class="d-flex justify-content-center">

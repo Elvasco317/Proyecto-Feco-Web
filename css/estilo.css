@@ -23,14 +23,6 @@ footer.fixed-bottom {
   width: 100%;
 }
 
-.efectofotos {
-  border: 2px double #949494;
-  opacity: 0.5;
-}
-.efectofotos:hover {
-  opacity: 1;
-}
-
 /* Efecto de animacion INDEX "Foto Tiguan" */
 .text-focus-in {
   -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
@@ -165,6 +157,20 @@ footer.fixed-bottom {
   100% {
     -webkit-transform: translateZ(0) rotateY(0);
     transform: translateZ(0) rotateY(0);
+  }
+}
+.formulario {
+  width: 50%;
+}
+
+.mapa {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .formulario,
+  .mapa {
+    width: 100%;
   }
 }
 
